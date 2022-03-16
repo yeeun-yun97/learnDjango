@@ -8,3 +8,7 @@ from .serializers import CalcSerializer
 @api_view(['GET'])
 def HelloAPI(request):
     return Response("Hello API!")
+
+#def genshin_random_chara(request, id):
+#    serializer = CalcSerializer(Calc.objects[id])
+#    return Response(serializer.data)
